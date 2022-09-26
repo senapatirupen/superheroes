@@ -1,5 +1,24 @@
 # Getting Started
 
+This is a fullstack example where integration between spring and angular is done.
+Angular UI Location: https://github.com/senapatirupen/superheroes-ui
+Spring Backend Location:https://github.com/senapatirupen/superheroes
+
+Steps To Run:
+Clone the spring application and use java 11 to run the application.
+MySQL is user for DB, create 'angular' schema on DB.(DB connection details are provided in application.properties file)
+
+Clone the angular ui application to VSCode tool.
+run 'npm install' command to download all the dependencies.
+run 'ng serve' command to run the application on 4200 port.
+Configure the spring application url as apiURL and authURL on environment.ts file.
+
+Hit the localhost:4200 to open the login page. 
+Register a first time user with admin/test.
+Then login as admin/test to login the application.
+
+Then you will be able to see all the backend communication happening through spring.
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
@@ -19,4 +38,6 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 * [Messaging with Redis](https://spring.io/guides/gs/messaging-redis/)
+
+
 
